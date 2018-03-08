@@ -1,0 +1,348 @@
+#bg {
+    z-index: -3;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 14px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+#soldier {
+    z-index: 10;
+    width: 400px;
+    height: auto;
+    position: fixed;
+    top: 160px;
+    right: 140px;
+    cursor:pointer;
+}
+
+#november {
+    z-index: 0;
+    width: 200px;
+    height: auto;
+    position: fixed;
+    bottom: 500px;
+    right:  0px;
+    cursor: pointer;
+}
+
+#airplanes {
+    z-index: 8;
+    width: 190px;
+    height: auto;
+    position: fixed;
+    top: 230px;
+    left: 0px;
+    cursor: pointer;
+}
+
+#poppies {
+    z-index: 4;
+    width: 400px;
+    height: auto;
+    position: fixed;
+    top: 500px;
+    right: 500px;
+    cursor: pointer;
+}
+
+#truce {
+    z-index: 0;
+    width: 150px;
+    height: auto;
+    position: fixed;
+    bottom: 160px;
+    left: 380px;
+    cursor: pointer;
+}
+
+#poem {
+    z-index: 8;
+    width: 80px;
+    height: auto;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    cursor: pointer;
+}
+
+#nurse {
+    z-index: 9;
+    width: 50px;
+    height: auto;
+    position: fixed;
+    bottom: 140px;
+    left: 0px;
+    cursor: pointer;
+}
+
+#silence {
+    z-index: 10;
+    width: 235px;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    top: 290px;
+    cursor: pointer;
+}
+
+#title {
+    z-index: 0;
+    width: 500px;
+    height: auto;
+    position: fixed;
+    top: 80px;
+    left: 430px;
+    cursor: pointer;
+}
+/*
+#fact1 {
+    background-color: cornsilk;
+    border: 5px solid crimson;
+    width: 350px;
+    height: 90px;
+    vertical-align: middle;
+    border-radius: 1px;
+    position: relative;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    top: 270px;
+    font-size: 22px;
+    display: none;
+    transition: opacity 1.2s;
+    padding: 5px;
+    box-shadow: 5px 10px 8px #000000;
+}
+
+#fact2 {
+    background-color: cornsilk;
+    border: 5px solid crimson;
+    width: 400px;
+    height: 100px;
+    vertical-align: middle;
+    border-radius: 1px;
+    position: relative;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    top: 185px;
+    font-size: 22px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+    display: none;
+    transition: opacity 1.2s;
+    padding: 5px;
+    box-shadow: 5px 10px 8px #000000;
+}
+
+#fact3 {
+    background-color: cornsilk;
+    border: 5px solid crimson;
+    width: 400px;
+    height: 140px;
+    vertical-align: middle;
+    border-radius: 1px;
+    position: relative;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    top: 60px;
+    font-size: 22px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    display: none;
+    transition: opacity 1.2s;
+    padding: 5px;
+    box-shadow: 5px 10px 8px #000000;
+}
+
+#fact4 {
+    background-color: cornsilk;
+    border: 5px solid crimson;
+    width: 400px;
+    height: 140px;
+    vertical-align: middle;
+    border-radius: 1px;
+    position: relative;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    top: -100px;
+    font-size: 22px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    display: none;
+    transition: opacity 1.2s;
+    padding: 5px;
+    box-shadow: 5px 10px 8px #000000;
+}
+
+#fact5 {
+    background-color: cornsilk;
+    border: 5px solid crimson;
+    width: 400px;
+    height: 190px;
+    vertical-align: middle;
+    border-radius: 1px;
+    position: relative;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    top: -300px;
+    font-size: 22px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    display: none;
+    transition: opacity 1.2s;
+    padding: 5px;
+    box-shadow: 5px 10px 8px #000000;
+}
+#fact6 {
+    background-color: cornsilk;
+    border: 5px solid crimson;
+    width: 400px;
+    height: 400px;
+    vertical-align: middle;
+    border-radius: 1px;
+    position: relative;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    top: -300px;
+    font-size: 20px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    display: none;
+    transition: opacity 1.2s;
+    padding: 5px;
+    box-shadow: 5px 10px 8px #000000;
+}  */
+
+.facts {
+    width: 40vw;
+    height: 20vw;
+    background-color: cornsilk;
+    border: 4px solid crimson;
+    z-index: 7;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    border-radius: 2px;
+    left: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+#fact1 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    height: 100px;
+}
+
+#fact2 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    height: 150px;
+    z-index: 12;
+}
+
+#fact3 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    height: 180px;
+    z-index: 12;
+}
+
+#fact4 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    height:  170px;
+    z-index: 12;
+}
+
+#fact5 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    height: 230px;
+    z-index: 12;
+}
+
+#fact6 {
+    top: 250px;
+    display: none;
+    font-size: 16px;
+    z-index: 11;
+    position: absolute;
+}
+
+#fact7 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    z-index: 11;
+    position: absolute;
+    height: 280px;
+}
+
+#fact8 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    height: 135px;
+    z-index: 12;
+}
+
+#fact9 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    height: 100px;
+    z-index: 12;
+}
+
+#fact10 {
+    top: 250px;
+    font-size: 16pt;
+    display: none;
+    padding-top: 10px;
+    z-index: 12;
+    position: relative;
+}
+
+button {
+    display: inline-block;
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 4px;
+    cursor: pointer;
+    z-index: 11;
+    position: absolute;
+}
